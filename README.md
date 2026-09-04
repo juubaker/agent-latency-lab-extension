@@ -4,7 +4,7 @@ A Chrome DevTools panel for understanding how long an AI agent's requests actual
 
 Requests carrying a W3C `traceparent` header are grouped under their shared trace ID, so a single agent run reads as one unit instead of a flat list. Every request is split into connection setup, waiting for the first byte, and receiving — and for streaming model responses, that middle phase is the closest the network layer gets to time-to-first-token.
 
-MIT licensed. No dependencies, no build step, no telemetry.
+GPL-3.0 licensed. No dependencies, no build step, no telemetry.
 
 ## Install
 
@@ -68,4 +68,4 @@ Issues and pull requests welcome. There's no build step, so the loop is: edit, h
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+GPL-3.0 — see [LICENSE](LICENSE).
