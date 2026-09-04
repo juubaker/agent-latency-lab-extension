@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Agent Latency Lab",
+  "version": "0.1.0",
+  "description": "Trace waterfalls, latency percentiles, and Monte Carlo SLO simulation for agent/LLM traffic. Captures W3C traceparent headers from live network requests and imports OTLP JSON.",
+  "devtools_page": "devtools.html",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
